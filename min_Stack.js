@@ -51,4 +51,4 @@ MinStack.prototype.getMin = function () {
 };
 
 var Map1 = new Map();
-Map
+Map1.has()
