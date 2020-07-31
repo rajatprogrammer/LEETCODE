@@ -2,6 +2,7 @@ package leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.PriorityQueue;
 
 public class subset {
 	List<List<Integer>> output = new ArrayList();
@@ -11,8 +12,9 @@ public class subset {
 		int nums[] = {1,2,3};
 		subset ob1 =new subset();
 		List<List<Integer>>s = ob1.subsets(nums);
+		PriorityQueue<Integer> pq = new PriorityQueue<>();
 	}
-	public  List<List<Integer>> subsets(int[] nums) {
+		public  List<List<Integer>> subsets(int[] nums) {
 //		n = nums.length;
 //	    for (k = 0; k < n + 1; ++k) {
 //	      backtrack(0, new ArrayList<Integer>(), nums);
